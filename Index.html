@@ -1,11 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>l
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Our Solutions</title>
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            }
+
+            .our-solutions {
+            padding: 50px;
+            background-color: #ffffff;
+            }
+
+            .section-title {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 30px;
+            }
+
+            .solutions-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            }
+
+            .solution-card {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            }
+
+            .solution-card:hover {
+            transform: translateY(-5px);
+            }
+
+            .solution-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            }
+
+            .solution-description {
+            font-size: 0.95em;
+            color: #555;
+            }
+        </style>
+        </head>
+        <body>
+
+        <section class="our-solutions">
+            <div class="solutions-content">
+            <h2 class="section-title">Our Solutions</h2>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                <h3 class="solution-title">Solar Energy</h3>
+                <p class="solution-description">
+                    Solar energy is a renewable resource that uses sunlight to generate electricity or heat
+                    through technologies like photovoltaic panels and solar thermal collectors.
+                </p>
+                </div>
+                <div class="solution-card">
+                <h3 class="solution-title">Wind Energy</h3>
+                <p class="solution-description">
+                    Wind energy is a renewable source that converts the wind’s kinetic energy into electricity using wind turbines.
+                    It is clean, efficient, and helps decrease the use of fossil fuels.
+                </p>
+                </div>
+                <div class="solution-card">
+                <h3 class="solution-title">Hydraulic Energy</h3>
+                <p class="solution-description">
+                    Hydraulic energy is a renewable source derived from the movement of water. It is generated in hydroelectric power plants,
+                    where flowing water drives turbines connected to generators.
+                </p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        </body>
+        </html>
+
+
